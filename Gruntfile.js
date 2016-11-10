@@ -12,7 +12,7 @@ sass: {
         sourcemap: 'none',
       },
     files: {
-    'style.css': 'public/stylesheets/sass/style.scss'
+    'public/stylesheets/style.css': 'public/stylesheets/sass/style.scss'
     }
   }
 },
