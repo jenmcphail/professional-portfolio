@@ -1,0 +1,14 @@
+@import '_mixins.scss';
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project{
+  flex-direction: row;
+  height: 25em;
+  width: 25em;
+  background-color: purple;
+  border: 1px solid black;
+}

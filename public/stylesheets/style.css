@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
 body {
   background-color: #ededed;
 }
@@ -191,13 +192,29 @@ nav ul li ul li a {
 }
 
 .hero {
-  background-image: url(../img/glasses-hero.jpeg);
+  background-image: url(../img/hero-img.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 5em 0em;
   height: 25em;
   position: relative;
+}
+
+.wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  height: 25em;
+  width: 25em;
+  background-color: purple;
+  border: 1px solid black;
 }
 
 .footer {
