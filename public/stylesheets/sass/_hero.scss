@@ -1,0 +1,11 @@
+@import '_mixins.scss';
+
+.hero{
+  background-image: url(../img/glasses-hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 5em 0em;
+  height: 25em;
+  position: relative;
+}
