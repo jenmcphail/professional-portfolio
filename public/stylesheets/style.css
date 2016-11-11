@@ -78,6 +78,7 @@ nav ul li ul li a {
   background: #262626;
   height: 70px;
   width: 70px;
+  z-index: 500;
 }
 
 @media only screen and (max-width: 800px) {

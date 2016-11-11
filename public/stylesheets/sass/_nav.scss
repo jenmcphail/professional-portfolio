@@ -82,6 +82,7 @@ nav {
   background: $nav-background;
   height: $nav-height;
   width: $nav-height;
+  z-index: 500;
 }
 @media only screen and (max-width: $breakpoint) {
   // Hamburger nav visible on mobile only
