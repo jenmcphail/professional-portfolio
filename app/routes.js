@@ -1,4 +1,7 @@
 const express = require('express');
+const path = require('path')
+
+// Creates and initializes router
 const router  = express.Router();
 module.exports = router;
 
@@ -6,12 +9,12 @@ module.exports = router;
 
 //homepage
 router.get('/', function(req, res){
-  res.send('This is the portfolio / homepage')
+  res.sendFile(path.join(__dirname, '../public/portfolio.html'))
 });
 
 //about page
 router.get('/about', function(req, res){
-  res.send('This is the about page')
+  res.sendFile(path.join(__dirname, '../public/about.html'))
 });
 
 //resume
@@ -21,7 +24,7 @@ router.get('/resume', function(req, res){
 
 //contact get
 router.get('/contact', function(req, res){
-  res.send('This is where the contact form will be')
+  res.sendFile(path.join(__dirname, '../public/contact.html'))
 });
 
 //contact form post

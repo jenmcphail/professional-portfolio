@@ -5,6 +5,7 @@ const port    =   process.env.PORT || 8080;
 //handles routes
 const router  = require('./app/routes')
 app.use('/', router)
+app.use(express.static('public'))
 
 
 // START THE SERVER
