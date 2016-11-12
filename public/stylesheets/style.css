@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
 body {
   background-color: #ededed;
 }
@@ -275,6 +276,18 @@ nav ul li ul li a {
     display: block;
   }
 }
+.about-content {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
 .footer {
   height: 5em;
   background-color: #625377;
