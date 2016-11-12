@@ -1,6 +1,17 @@
 @import '_mixins.scss';
 
 .footer{
-  height: 10em;
+  height: 5em;
   background-color: $footer-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text{
+  font-size: 10px;
+}
+
+.fa{
+  margin-left: 5px
 }

@@ -201,12 +201,11 @@ nav ul li ul li a {
   position: relative;
 }
 
-.hero-div {
+/*.hero-div{
   width: 100;
   height: auto;
   background-color: rgba(237, 237, 237, 0.7);
-}
-
+}*/
 .hero-content {
   width: 28em;
   padding-top: 8%;
@@ -277,6 +276,20 @@ nav ul li ul li a {
   }
 }
 .footer {
-  height: 10em;
+  height: 5em;
   background-color: #625377;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.footer-text {
+  font-size: 10px;
+}
+
+.fa {
+  margin-left: 5px;
 }
