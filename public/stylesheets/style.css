@@ -280,12 +280,29 @@ nav ul li ul li a {
   height: 100%;
   display: -ms-flexbox;
   display: flex;
+  margin: 5% 15% 10% 15%;
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+}
+
+@media (max-width: 800px) {
+  .about-content {
+    display: block;
+  }
+}
+.jen-img {
+  background-image: url(img/jen-img.png);
+  background-repeat: no-repeat;
+  height: 30%;
+  width: auto;
+  border-radius: 500px;
+  background-position: center center;
+  border: 5px #48168e solid;
+  position: relative;
 }
 
 .footer {

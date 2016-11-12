@@ -3,10 +3,26 @@
 .about-content{
   height: 100%;
   display: flex;
+  margin: 5% 15% 10% 15%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
-.bio .bio-img .bio-social-links{
+@media (max-width: 800px) {
+  .about-content {
+    display: block;
+  }
+}
+
+.jen-img{
+  background-image: url(img/jen-img.png);
+  background-repeat: no-repeat;
+  height: 30%;
+  width: auto;
+  border-radius: 500px;
+  background-position: center center;
+  border: 5px $link-hover-color solid;
+  position: relative;
 }
