@@ -2,13 +2,32 @@
 
 .wrapper{
   display: flex;
-  flex-wrap: wrap;
+  width: 100%
 }
 
-.project{
+.col{
+  flex: 1;
   flex-direction: row;
-  height: 25em;
-  width: 25em;
+  min-height: 50px;
   background-color: purple;
   border: 1px solid black;
+}
+
+.col-half{
+  flex: 0 0 50%;
+}
+
+.col-third{
+  flex: 0 0 33.33%;
+}
+
+.col-quarter{
+  flex: 0 0 25%;
+}
+
+
+@media (max-width: 400px) {
+  .wrapper {
+    display: block;
+  }
 }
