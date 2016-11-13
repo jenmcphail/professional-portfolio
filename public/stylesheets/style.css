@@ -244,6 +244,8 @@ nav ul li ul li a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .col {
@@ -253,7 +255,6 @@ nav ul li ul li a {
       flex-direction: row;
   min-height: 50px;
   background-color: purple;
-  border: 1px solid black;
 }
 
 .col-half {
@@ -272,8 +273,21 @@ nav ul li ul li a {
 }
 
 @media (max-width: 400px) {
-  .wrapper {
-    display: block;
+  .col {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+  }
+}
+@media (min-width: 400px) {
+  .col {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+  }
+}
+@media (min-width: 800px) {
+  .col {
+    -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
   }
 }
 .about-content {
