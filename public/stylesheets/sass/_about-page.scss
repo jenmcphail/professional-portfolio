@@ -7,13 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-}
-
-@media (max-width: 800px) {
-  .about-content {
-    display: block;
-  }
 }
 
 .jen-img{
@@ -24,5 +17,4 @@
   border-radius: 500px;
   background-position: center center;
   border: 5px $link-hover-color solid;
-  position: relative;
 }

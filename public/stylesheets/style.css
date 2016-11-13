@@ -38,7 +38,6 @@ h5 {
   height: 70px;
   background: #262626;
   font-family: "Quicksand", sans-serif;
-  z-index: 10;
 }
 
 .brand {
@@ -201,7 +200,7 @@ nav ul li ul li a {
   padding: 5em 0em;
   height: 25em;
   position: relative;
-  z-index: -10;
+  z-index: -5;
 }
 
 /*.hero-div{
@@ -274,19 +273,19 @@ nav ul li ul li a {
       flex: 0 0 25%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   .col {
     -ms-flex: 0 0 100%;
         flex: 0 0 100%;
   }
 }
-@media (min-width: 400px) {
+@media (min-width: 551px) {
   .col {
     -ms-flex: 0 0 50%;
         flex: 0 0 50%;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .col {
     -ms-flex: 0 0 33.33333%;
         flex: 0 0 33.33333%;
@@ -305,11 +304,6 @@ nav ul li ul li a {
       align-items: center;
 }
 
-@media (max-width: 800px) {
-  .about-content {
-    display: block;
-  }
-}
 .jen-img {
   background-image: url(img/jen-img.png);
   background-repeat: no-repeat;
@@ -318,7 +312,6 @@ nav ul li ul li a {
   border-radius: 500px;
   background-position: center center;
   border: 5px #48168e solid;
-  position: relative;
 }
 
 .footer {
