@@ -38,6 +38,7 @@ h5 {
   height: 70px;
   background: #262626;
   font-family: "Quicksand", sans-serif;
+  z-index: 10;
 }
 
 .brand {
@@ -200,6 +201,7 @@ nav ul li ul li a {
   padding: 5em 0em;
   height: 25em;
   position: relative;
+  z-index: -10;
 }
 
 /*.hero-div{
