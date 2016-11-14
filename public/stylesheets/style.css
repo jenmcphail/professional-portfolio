@@ -148,11 +148,6 @@ nav ul li ul li a {
     position: static;
   }
 }
-@media screen and (min-width: 800px) {
-  .nav-list {
-    display: block !important;
-  }
-}
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -332,17 +327,41 @@ nav ul li ul li a {
   color: black;
 }
 
-.form-container {
+.contact-form {
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
 }
 
-.form {
-  -ms-flex: 1;
-      flex: 1;
+.form-content {
+  margin: 5% 30% 5% 30%;
+  text-align: center;
+}
+
+.input {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.send {
+  margin-bottom: 20px;
+}
+
+.msg {
+  height: 25%;
+  font-family: "Quicksand", sans-serif;
+  padding-bottom: 10%;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
 
 .footer {
