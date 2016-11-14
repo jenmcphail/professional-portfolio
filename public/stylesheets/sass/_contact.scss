@@ -1,0 +1,9 @@
+.form-container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.form{
+  flex: 1;
+}

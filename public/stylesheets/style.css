@@ -10,7 +10,7 @@ body {
   background-color: #ededed;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p, div, section {
   font-family: "Quicksand", sans-serif;
 }
 
@@ -222,7 +222,7 @@ nav ul li ul li a {
     padding-top: 5%;
   }
 }
-.hero-btn {
+.btn {
   cursor: pointer;
   background: #7c24d4;
   background-image: linear-gradient(to bottom, #7c24d4, #48168e);
@@ -235,7 +235,7 @@ nav ul li ul li a {
   text-decoration: none;
 }
 
-.hero-btn:hover {
+.btn:hover {
   background: #48168e;
   background-image: linear-gradient(to bottom, #48168e, #7c24d4);
   text-decoration: none;
@@ -330,6 +330,19 @@ nav ul li ul li a {
 
 .social {
   color: black;
+}
+
+.form-container {
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.form {
+  -ms-flex: 1;
+      flex: 1;
 }
 
 .footer {
