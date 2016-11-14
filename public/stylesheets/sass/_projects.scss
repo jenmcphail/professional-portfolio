@@ -45,6 +45,16 @@
 }
 
 /*Div styling*/
+
+.project-header{
+  margin-top: 10%;
+}
+
+.project-github{
+  display: block;
+  color: black;
+}
+
 .foodly{
   background-color: $foodly-color;
   text-align: center
@@ -92,7 +102,6 @@
   background-color: $tic-tac-toe-color;
   text-align: center;
 }
-
 .unicorn{
   height: auto;
   width: 50%;
@@ -104,15 +113,9 @@
   background-color: $hangman-color;
   text-align: center;
 }
-
 .hangman-logo{
   height: auto;
   width: 40%;
   margin-top: 20%;
   margin-bottom: 25%;
-}
-
-.project-github{
-  display: block;
-  color: black;
 }

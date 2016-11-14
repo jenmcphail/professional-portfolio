@@ -302,6 +302,15 @@ nav ul li ul li a {
   }
 }
 /*Div styling*/
+.project-header {
+  margin-top: 10%;
+}
+
+.project-github {
+  display: block;
+  color: black;
+}
+
 .foodly {
   background-color: #26a69a;
   text-align: center;
@@ -371,11 +380,6 @@ nav ul li ul li a {
   width: 40%;
   margin-top: 20%;
   margin-bottom: 25%;
-}
-
-.project-github {
-  display: block;
-  color: black;
 }
 
 /*Nav Bar*/
