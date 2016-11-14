@@ -1,8 +1,9 @@
 const express = require('express');
-const path = require('path')
+const path    = require('path')
+const dotenv  = require('dotenv').config();
 
 // Creates and initializes router
-const router  = express.Router();
+const router   = express.Router();
 module.exports = router;
 
 //ROUTES
