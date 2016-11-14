@@ -19,7 +19,7 @@ router.get('/about', function(req, res){
 
 //resume
 router.get('/resume', function(req, res){
-  res.send('This is where my resume will be')
+  res.sendFile(path.join(__dirname, '../public/img/jen-mcphail-resume.pdf'))
 });
 
 //contact get
@@ -29,6 +29,7 @@ router.get('/contact', function(req, res){
 
 //contact form post
 router.post('/contact', function(req, res){
-  console.log(req.body.message);
+  console.log(req.body);
+  res.sendFile(path.join(__dirname, '../public/thank-you.html'))
 });
 

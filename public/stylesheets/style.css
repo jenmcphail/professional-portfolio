@@ -368,6 +368,23 @@ nav ul li ul li a {
   margin-bottom: 20px;
 }
 
+.thank-you-container {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.thank-you-content {
+  margin: 5% 30% 5% 30%;
+  text-align: center;
+}
+
 .footer {
   height: 5em;
   background-color: #625377;
