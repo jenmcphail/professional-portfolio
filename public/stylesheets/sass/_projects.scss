@@ -1,5 +1,6 @@
 @import '_mixins.scss';
 
+/*FLEX BOX GRID SYSTEM*/
 .wrapper{
   display: flex;
   width: 100%;
@@ -25,65 +26,6 @@
   flex: 0 0 25%;
 }
 
-.foodly{
-  background-color: $foodly-color;
-}
-
-.foodly-logo{
-  height: auto;
-  width: 50%;
-  margin: 20% 0 25% 25%;
-}
-
-.buffy{
-  background-color: $buffy-color;
-}
-.buffy-logo{
-  height: auto;
-  width: 50%;
-  margin: 25% 0 25% 25%;
-}
-
-.gcd{
-  background-color: $gcd-color;
-}
-
-.gcd-logo{
-  height: auto;
-  width: 40%;
-  margin: 25% 0 25% 25%;
-}
-
-.diversity{
-  background-color: $diversity-color;
-}
-
-.equal-platform-logo{
-  width: 50%;
-  height: auto;
-  margin: 30% 0 25% 25%;
-}
-
-.tic-tac-toe{
-  background-color: $tic-tac-toe-color;
-}
-
-.unicorn{
-  height: auto;
-  width: 50%;
-  margin: 25% 0 25% 25%;
-}
-
-.hangman{
-  background-color: $hangman-color;
-}
-
-.hangman-logo{
-  height: auto;
-  width: 40%;
-  margin: 25% 0 25% 25%;
-}
-
 @media (max-width: 599px) {
   .col {
     flex: 0 0 100%;
@@ -100,4 +42,77 @@
   .col {
     flex: 0 0 33.33333%;
   }
+}
+
+/*Div styling*/
+.foodly{
+  background-color: $foodly-color;
+  text-align: center
+}
+.foodly-logo{
+  height: auto;
+  width: 50%;
+  margin-top: 20%;
+  margin-bottom: 25%;
+}
+
+.buffy{
+  background-color: $buffy-color;
+  text-align: center;
+}
+.buffy-logo{
+  height: auto;
+  width: 50%;
+  margin-top:25%
+}
+
+.gcd{
+  background-color: $gcd-color;
+  text-align: center
+}
+.gcd-logo{
+  height: auto;
+  width: 40%;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.equal-platform{
+  background-color: $diversity-color;
+  text-align: center
+}
+.equal-platform-logo{
+  width: 50%;
+  height: auto;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
+.tic-tac-toe{
+  background-color: $tic-tac-toe-color;
+  text-align: center;
+}
+
+.unicorn{
+  height: auto;
+  width: 50%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.hangman{
+  background-color: $hangman-color;
+  text-align: center;
+}
+
+.hangman-logo{
+  height: auto;
+  width: 40%;
+  margin-top: 20%;
+  margin-bottom: 25%;
+}
+
+.project-github{
+  display: block;
+  color: black;
 }
