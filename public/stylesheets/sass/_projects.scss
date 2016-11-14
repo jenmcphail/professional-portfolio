@@ -9,8 +9,13 @@
 .col{
   flex: 1;
   flex-direction: row;
-  min-height: 50px;
-  background-color: purple;
+  min-height: 300px;
+}
+
+.project-content{
+  display: flex;
+  justify-content: center;
+  align-content: center
 }
 
 .col-half{
@@ -23,6 +28,59 @@
 
 .col-quarter{
   flex: 0 0 25%;
+}
+
+.foodly{
+  background-color: $foodly-color;
+}
+
+.foodly-logo{
+  height: auto;
+  width: 40%;
+}
+
+.buffy{
+  background-color: $buffy-color;
+}
+.buffy-logo{
+  height: auto;
+  width: 50%;
+}
+
+.gcd{
+  background-color: $gcd-color;
+}
+
+.gcd-logo{
+  height: auto;
+  width: 40%;
+}
+
+.diversity{
+  background-color: $diversity-color;
+}
+
+.equal-platform-logo{
+  width: 50%;
+  height: auto;
+}
+
+.tic-tac-toe{
+  background-color: $tic-tac-toe-color;
+}
+
+.unicorn{
+  height: auto;
+  width: 50%;
+}
+
+.hangman{
+  background-color: $hangman-color;
+}
+
+.hangman-logo{
+  height: auto;
+  width: 40%;
 }
 
 @media (max-width: 599px) {

@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+/*Nav Bar*/
+/*Body & Main site*/
+/*Portfolio Projects*/
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+/*Nav Bar*/
+/*Body & Main site*/
+/*Portfolio Projects*/
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
@@ -34,6 +40,9 @@ h5 {
   font-size: 20px;
 }
 
+/*Nav Bar*/
+/*Body & Main site*/
+/*Portfolio Projects*/
 .navigation {
   height: 70px;
   background: #262626;
@@ -187,6 +196,9 @@ nav ul li ul li a {
   transform: rotate(-45deg);
 }
 
+/*Nav Bar*/
+/*Body & Main site*/
+/*Portfolio Projects*/
 .hero {
   background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../img/hero-img.jpeg);
   background-repeat: no-repeat;
@@ -236,6 +248,9 @@ nav ul li ul li a {
   text-decoration: none;
 }
 
+/*Nav Bar*/
+/*Body & Main site*/
+/*Portfolio Projects*/
 .wrapper {
   display: -ms-flexbox;
   display: flex;
@@ -249,8 +264,16 @@ nav ul li ul li a {
       flex: 1;
   -ms-flex-direction: row;
       flex-direction: row;
-  min-height: 50px;
-  background-color: purple;
+  min-height: 300px;
+}
+
+.project-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .col-half {
@@ -266,6 +289,60 @@ nav ul li ul li a {
 .col-quarter {
   -ms-flex: 0 0 25%;
       flex: 0 0 25%;
+}
+
+.foodly {
+  background-color: #26a69a;
+}
+
+.foodly-logo {
+  height: auto;
+  width: 40%;
+}
+
+.buffy {
+  background-color: #b71c1c;
+}
+
+.buffy-logo {
+  height: auto;
+  width: 50%;
+}
+
+.gcd {
+  background-color: #616161;
+}
+
+.gcd-logo {
+  height: auto;
+  width: 40%;
+}
+
+.diversity {
+  background-color: #03a9f4;
+}
+
+.equal-platform-logo {
+  width: 50%;
+  height: auto;
+}
+
+.tic-tac-toe {
+  background-color: #ad1457;
+}
+
+.unicorn {
+  height: auto;
+  width: 50%;
+}
+
+.hangman {
+  background-color: #673ab7;
+}
+
+.hangman-logo {
+  height: auto;
+  width: 40%;
 }
 
 @media (max-width: 599px) {
@@ -286,6 +363,9 @@ nav ul li ul li a {
         flex: 0 0 33.33333%;
   }
 }
+/*Nav Bar*/
+/*Body & Main site*/
+/*Portfolio Projects*/
 .about-content {
   margin: 5% 15% 10% 15%;
   position: relative;
@@ -385,6 +465,9 @@ nav ul li ul li a {
   text-align: center;
 }
 
+/*Nav Bar*/
+/*Body & Main site*/
+/*Portfolio Projects*/
 .footer {
   height: 5em;
   background-color: #625377;
