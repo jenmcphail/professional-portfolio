@@ -327,6 +327,10 @@ nav ul li ul li a {
   color: black;
 }
 
+.form-container {
+  height: 100%;
+}
+
 .contact-form {
   display: -ms-flexbox;
   display: flex;

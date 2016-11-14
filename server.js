@@ -1,6 +1,10 @@
-const express = require('express');
-const app     = express();
-const port    =   process.env.PORT || 8080;
+const express    = require('express');
+const app        = express();
+const bodyParser = require('body-parser');
+const port       = process.env.PORT || 8080;
+
+// body parser config
+app.use(bodyParser.urlencoded());
 
 //handles routes
 const router  = require('./app/routes')

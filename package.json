@@ -9,6 +9,7 @@
   "author": "Jen McPhail",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "grunt": "^1.0.1",
     "grunt-autoprefixer": "^3.0.4",

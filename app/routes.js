@@ -28,5 +28,7 @@ router.get('/contact', function(req, res){
 });
 
 //contact form post
-router.post('/contact')
+router.post('/contact', function(req, res){
+  console.log(req.body.message);
+});
 
