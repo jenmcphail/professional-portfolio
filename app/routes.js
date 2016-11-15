@@ -46,7 +46,7 @@ router.post('/contact', function(req, res){
     from: 'jen.website.email@gmail.com',
     to: 'mcphail.jen@gmail.com',
     subject: req.body.subject,
-    text: req.body.message
+    text: 'email: ' + req.body.email + ', name: ' + req.body.name + ', message: ' + req.body.message
 };
 
   transporter.sendMail(mailOptions, function(error, response){
