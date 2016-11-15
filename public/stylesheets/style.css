@@ -157,6 +157,11 @@ nav ul li ul li a {
     position: static;
   }
 }
+@media only screen and (max-width: 800px) and (min-width: 800px) {
+  .nav-list {
+    display: block !important;
+  }
+}
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -394,12 +399,8 @@ nav ul li ul li a {
 }
 
 .bio-img {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  display: block;
+  text-align: center;
 }
 
 .jen-img {
