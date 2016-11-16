@@ -1,6 +1,6 @@
 @import '_mixins.scss';
 
-.hero{
+.hero-div{
   background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(../img/hero-img.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,12 +10,6 @@
   position: relative;
   z-index: -5;
 }
-
-/*.hero-div{
-  width: 100;
-  height: auto;
-  background-color: rgba(237, 237, 237, 0.7);
-}*/
 
 .hero-content{
   width: 28em;

@@ -59,6 +59,7 @@ nav {
       } // Dropdown list
       ul li {
         min-width: 190px;
+
         a {
           padding: 15px;
           line-height: 20px;
@@ -88,7 +89,7 @@ nav {
   height: $nav-height;
   width: $nav-height;
   font-family: $font-stack;
-  z-index: 500;
+  z-index: 50;
 }
 @media only screen and (max-width: $breakpoint) {
   // Hamburger nav visible on mobile only
@@ -117,10 +118,10 @@ nav {
     position: static;
   }
   @media screen and (min-width: $breakpoint) {
-  .nav-list {
-    display: block !important;
+    .nav-list {
+      display: block !important;
+    }
   }
-}
 }
 
 #nav-toggle {

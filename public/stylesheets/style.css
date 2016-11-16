@@ -126,7 +126,7 @@ nav ul li ul li a {
   height: 70px;
   width: 70px;
   font-family: "Quicksand", sans-serif;
-  z-index: 500;
+  z-index: 50;
 }
 
 @media only screen and (max-width: 800px) {
@@ -204,7 +204,7 @@ nav ul li ul li a {
 /*Nav Bar*/
 /*Body & Main site*/
 /*Portfolio Projects*/
-.hero {
+.hero-div {
   background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../img/hero-img.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,11 +215,6 @@ nav ul li ul li a {
   z-index: -5;
 }
 
-/*.hero-div{
-  width: 100;
-  height: auto;
-  background-color: rgba(237, 237, 237, 0.7);
-}*/
 .hero-content {
   width: 28em;
   padding-top: 8%;
